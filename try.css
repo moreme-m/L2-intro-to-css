@@ -1,0 +1,10 @@
+h1{ 
+    color: darkblue;background-color: bisque;
+}
+div{
+    height: 200px;
+    background: radial-gradient(red,orange,yellow
+     );
+     font-style: italic
+     ;
+}

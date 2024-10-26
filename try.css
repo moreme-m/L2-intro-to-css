@@ -3,7 +3,7 @@ h1{
 }
 div{
     height: 200px;
-    background: radial-gradient(red,orange,yellow
+    background: linear65-gradient(red,orange,yellow
      );
      font-style: italic
      ;

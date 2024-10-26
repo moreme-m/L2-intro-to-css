@@ -1,0 +1,16 @@
+.p1{
+    color: chartreuse;
+    text-decoration:line-through;
+    text-transform: capitalize;
+    text-transform: lowercase;
+}
+.p2{
+    text-decoration: underline  overline line-through;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: darkviolet;
+}
+.h1{
+    text-transform: capitalize;
+    text-shadow: 7px 5px 10px ;
+}

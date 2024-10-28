@@ -1,0 +1,11 @@
+.paragraph1{
+    color: brown;
+}
+
+#paragraph1{
+    color:red
+}
+/* attribute selector */
+input[type="text"]{
+    background-color: yellow;
+}

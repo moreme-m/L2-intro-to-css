@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+   .first{
+       background-color: red;
+       color: white;
+       padding: 100px;
+       margin: 100px;
+       margin-bottom: 100px;
+       
+   }
+    
+    .second{
+        background-color: blue;
+        margin-top: 40px;
+    }
+
+    .box{
+        float: right;
+        width: 30%;
+        margin: 30px;
+        padding: 50px;
+    }
+    </style>
+</head>
+<body>
+    <p class="first">This is the first paragraph</p>
+    <p class="second">This is the second paragraph</p>
+    <div class="third">
+        <div class="box" style="background-color: black;">First</div>
+        <div class="box" style="background-color: red;">Second</div>
+        <div class="box" style="background-color: yellow;">Third</div>
+
+    </div>
+</body>
+</html>

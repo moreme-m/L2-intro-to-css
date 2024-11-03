@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        .fixed{
+            background-color: green;
+            right: 0;
+            top: 0;
+            padding: 20px;
+            position: fixed;
+        }
+        .sticy{ 
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: red;
+
+         }
+        .first{
+            position: relative;
+        }
+        .second{
+            position: absolute;
+            top: 150px;
+            left: 100px;
+            font-size: 30px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>This is me-static</p>
+    <h1 class="fixed">How are you doing</h1>
+    <h2 class="sticy">what's up yall</h2>
+    <div>
+        <img src="download.jfif" class="first" alt="sky">
+        <h1 class="second">This is an image of the sky</h1>
+    </div>
+</body>
+</html>
